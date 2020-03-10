@@ -1,0 +1,31 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: cloud-payment-service
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud2020?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 15773272279wt..A
+
+mybatis:
+  mapper-locations:  classpath:mapper/*.xml
+  type-aliases-package: com.selenium.springcloud.entity
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: payment8081
+    prefer-ip-address: true   #显示出ip
+  client:
+    #向服务注册中心注册
+    register-with-eureka: true
+    #向服务注册中心拉取注册的服务实例(单机版provider无所谓，集群必须设置为true才能配合ribbon使用负载均衡)
+    fetch-registry: true
+    #服务注册中心Server向外提供的服务接口URL
+    service-url:
+      defaultZone: http://server1:7001/eureka/,http://server2:7002/eureka/
