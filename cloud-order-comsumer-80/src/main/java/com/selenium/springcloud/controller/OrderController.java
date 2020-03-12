@@ -1,6 +1,7 @@
 package com.selenium.springcloud.controller;
 
 import com.selenium.springcloud.entity.Payment;
+import com.selenium.springcloud.loadbalance.Impl.MyLoadBalance;
 import com.selenium.springcloud.result.CommonResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +25,8 @@ public class OrderController {
     private RestTemplate restTemplate;
     @Autowired
     private DiscoveryClient discoveryClient;
+    @Autowired
+    private MyLoadBalance myLoadBalance;
 
     @PostMapping("/create")
     public CommonResult create(Payment payment) {
@@ -33,6 +36,14 @@ public class OrderController {
     @GetMapping("/get/{id}")
     public CommonResult getPayment(@PathVariable("id") Long id) {
         return restTemplate.getForObject(PAYMENT_URL + "/payment/get/" + id, CommonResult.class);
+    }
+
+    @GetMapping("/get/lb/{id}")
+    public CommonResult getPaymentByMyLoadBalance(@PathVariable("id") Long id) {
+        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
+        ServiceInstance serviceInstance = myLoadBalance.getServiceInstance(instances);
+        log.info("instance uri: " + serviceInstance.getUri());
+        return restTemplate.getForObject(serviceInstance.getUri() + "/payment/get/" + id, CommonResult.class);
     }
 
     @GetMapping("/discovery")
