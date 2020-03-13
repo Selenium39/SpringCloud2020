@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352f4c48-77c6-4d1c-8847-a36c9976a3b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/src/main/java/com/selenium/ruler/MyRuler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/src/main/java/com/selenium/springcloud/loadbalance/ILoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/src/main/java/com/selenium/springcloud/loadbalance/Impl/MyLoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-consul-consumer-80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-consul-consumer-80/src/main/java/com/selenium/springcloud/OrderConsulMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-consul-consumer-80/src/main/java/com/selenium/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-consul-consumer-80/src/main/java/com/selenium/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-consul-consumer-80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-consul-provider-8003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-consul-provider-8003/src/main/java/com/selenium/springcloud/PaymentMain8083.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-consul-provider-8003/src/main/java/com/selenium/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-consul-provider-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order-feign-consumer-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order-feign-consumer-80/src/main/java/com/selenium/springcloud/FeignOrder80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order-feign-consumer-80/src/main/java/com/selenium/springcloud/config/FeignLogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order-feign-consumer-80/src/main/java/com/selenium/springcloud/controller/FeignOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order-feign-consumer-80/src/main/java/com/selenium/springcloud/service/OpenFeignOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order-feign-consumer-80/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-comsumer-80/src/main/java/com/selenium/springcloud/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/src/main/java/com/selenium/springcloud/OrderMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-comsumer-80/src/main/java/com/selenium/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/src/main/java/com/selenium/springcloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/OrderMain80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/config/ApplicationContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-payment-provider-8081/src/main/java/com/selenium/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-provider-8081/src/main/java/com/selenium/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-payment-provider-8081/target/classes/com/selenium/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-provider-8081/target/classes/com/selenium/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-payment-provider-8082/src/main/java/com/selenium/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-provider-8082/src/main/java/com/selenium/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-payment-provider-8082/target/classes/com/selenium/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-provider-8082/target/classes/com/selenium/springcloud/controller/PaymentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -114,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderMain80">
+  <component name="RunManager" selected="Spring Boot.FeignOrder80">
     <configuration name="EurekaServerMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server-7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.springcloud.EurekaServerMain7001" />
@@ -125,6 +116,19 @@
     <configuration name="EurekaServerMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server-7002" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.springcloud.EurekaServerMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignOrder80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-order-feign-consumer-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.springcloud.FeignOrder80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,8 +194,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderMain80" />
+        <item itemvalue="Spring Boot.FeignOrder80" />
         <item itemvalue="Spring Boot.PaymentMain8082" />
+        <item itemvalue="Spring Boot.OrderMain80" />
         <item itemvalue="Spring Boot.OrderConsulMain80" />
         <item itemvalue="Spring Boot.PaymentMain8083" />
       </list>
@@ -200,16 +205,12 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.012028431" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ae716fb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ae716fb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@927de512" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -245,8 +246,16 @@
       <workItem from="1583645689330" duration="21049000" />
       <workItem from="1583748264328" duration="22574000" />
       <workItem from="1583848670863" duration="42000" />
-      <workItem from="1583980492701" duration="23210000" />
+      <workItem from="1583980492701" duration="33769000" />
     </task>
+    <task id="LOCAL-00001" summary="ribbon:smile:">
+      <created>1584013657775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584013657775</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,5 +276,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ribbon:smile:" />
+    <option name="LAST_COMMIT_MESSAGE" value="ribbon:smile:" />
   </component>
 </project>

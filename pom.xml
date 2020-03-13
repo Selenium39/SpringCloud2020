@@ -14,6 +14,7 @@
         <module>cloud-payment-provider-8082</module>
         <module>cloud-payment-consul-provider-8003</module>
         <module>cloud-order-consul-consumer-80</module>
+        <module>cloud-order-feign-consumer-80</module>
     </modules>
 
     <groupId>com.selenium</groupId>

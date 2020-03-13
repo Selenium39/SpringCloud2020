@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/cloud-eureka-server-7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-order-comsumer-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-order-consul-consumer-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-order-feign-consumer-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-payment-consul-provider-8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-payment-provider-8081" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-payment-provider-8082" charset="UTF-8" />
