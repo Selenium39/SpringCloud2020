@@ -1,0 +1,26 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: cloud-payment-hystrix-service
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: payment8084
+    prefer-ip-address: true   #显示出ip
+  client:
+    #向服务注册中心注册
+    register-with-eureka: true
+    #向服务注册中心拉取注册的服务实例(单机版provider无所谓，集群必须设置为true才能配合ribbon使用负载均衡)
+    fetch-registry: true
+    #服务注册中心Server向外提供的服务接口URL
+    service-url:
+      defaultZone: http://server1:7001/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
