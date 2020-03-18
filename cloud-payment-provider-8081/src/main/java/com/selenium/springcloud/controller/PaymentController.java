@@ -29,6 +29,11 @@ public class PaymentController {
         return new CommonResult(200, "success,serverPort: " + serverPort, payment);
     }
 
+    @GetMapping("/do/ok")
+    public CommonResult doOk() {
+        return new CommonResult(200, "success,serverPort: " + serverPort, null);
+    }
+
     @GetMapping("/feign/timeout")
     public CommonResult getFeignTimeout() {
         try {

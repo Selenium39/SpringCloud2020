@@ -2,33 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352f4c48-77c6-4d1c-8847-a36c9976a3b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard-9001/cloud-hystrix-dashboard-9001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard-9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard-9001/src/main/java/com/selenium/springcloud/HystrixDashBoard9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard-9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-feign-hystrix-consumer-80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-feign-hystrix-consumer-80/src/main/java/com/selenium/springcloud/FeignHystrixOrder80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-feign-hystrix-consumer-80/src/main/java/com/selenium/springcloud/controller/FeignOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-feign-hystrix-consumer-80/src/main/java/com/selenium/springcloud/service/OpenFeignOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-feign-hystrix-consumer-80/src/main/java/com/selenium/springcloud/service/OpenFeignOrderServiceFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-order-feign-hystrix-consumer-80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-hystrix-provider-8084/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-hystrix-provider-8084/src/main/java/com/selenium/springcloud/OrderHystrixMain8084.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-hystrix-provider-8084/src/main/java/com/selenium/springcloud/controller/HystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-hystrix-provider-8084/src/main/java/com/selenium/springcloud/service/HystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-payment-hystrix-provider-8084/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9002/cloud-gateway-9002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9002/src/main/java/com/selenium/springcloud/GatewayMain9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9002/src/main/java/com/selenium/springcloud/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9002/src/main/java/com/selenium/springcloud/filter/MyGateWayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9002/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/META-INF/cloud-order-comsumer-80.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/OrderMain80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/config/ApplicationContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-comsumer-80/target/classes/com/selenium/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-payment-consul-provider-8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-consul-provider-8083/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-payment-consul-provider-8003/src/main/java/com/selenium/springcloud/PaymentMain8083.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-consul-provider-8083/src/main/java/com/selenium/springcloud/PaymentMain8083.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-payment-consul-provider-8003/src/main/java/com/selenium/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-consul-provider-8083/src/main/java/com/selenium/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-payment-consul-provider-8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-consul-provider-8083/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-payment-provider-8081/target/classes/META-INF/cloud-payment-provider-8081.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-payment-provider-8081/src/main/java/com/selenium/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-provider-8081/src/main/java/com/selenium/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-payment-provider-8081/target/classes/com/selenium/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-payment-provider-8081/target/classes/com/selenium/springcloud/controller/PaymentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-payment-hystrix-provider-8084" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41573036" />
@@ -123,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixDashBoard9001">
+  <component name="RunManager">
     <configuration name="EurekaServerMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server-7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.springcloud.EurekaServerMain7001" />
@@ -151,15 +135,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeignOrder80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-order-feign-consumer-80" />
+    <configuration name="GatewayMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway-9002" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.selenium.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.springcloud.FeignOrder80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.springcloud.GatewayMain9002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,6 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-order-comsumer-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-payment-provider-8081" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.selenium.springcloud.PaymentMain8081" />
@@ -226,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayMain9002" />
+        <item itemvalue="Spring Boot.PaymentMain8082" />
         <item itemvalue="Spring Boot.HystrixDashBoard9001" />
         <item itemvalue="Spring Boot.OrderHystrixMain8084" />
         <item itemvalue="Spring Boot.FeignHystrixOrder80" />
-        <item itemvalue="Spring Boot.FeignOrder80" />
-        <item itemvalue="Spring Boot.PaymentMain8082" />
       </list>
     </recent_temporary>
   </component>
@@ -242,12 +233,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a4e05083" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d2560416" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a4e05083" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1d69e718" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d2560416" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9eea376b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -280,7 +271,9 @@
       <workItem from="1583848670863" duration="42000" />
       <workItem from="1583980492701" duration="41406000" />
       <workItem from="1584237645021" duration="6604000" />
-      <workItem from="1584248225946" duration="15275000" />
+      <workItem from="1584248225946" duration="15323000" />
+      <workItem from="1584497023371" duration="5328000" />
+      <workItem from="1584540680271" duration="5144000" />
     </task>
     <task id="LOCAL-00001" summary="ribbon:smile:">
       <created>1584013657775</created>
@@ -296,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584057656889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Hystrix:smile:">
+      <created>1584293777123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584293777123</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +319,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ribbon:smile:" />
     <MESSAGE value="OpenFeign:smile:" />
-    <option name="LAST_COMMIT_MESSAGE" value="OpenFeign:smile:" />
+    <MESSAGE value="Hystrix:smile:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hystrix:smile:" />
   </component>
 </project>

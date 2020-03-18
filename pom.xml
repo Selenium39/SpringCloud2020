@@ -18,6 +18,7 @@
         <module>cloud-payment-hystrix-provider-8084</module>
         <module>cloud-order-feign-hystrix-consumer-80</module>
         <module>cloud-hystrix-dashboard-9001</module>
+        <module>cloud-gateway-9002</module>
     </modules>
 
     <groupId>com.selenium</groupId>
