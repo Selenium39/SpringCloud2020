@@ -1,0 +1,36 @@
+server:
+  port: 6002
+spring:
+  application:
+      name: cloud-config-client-service
+  cloud:
+    #config客户端配置
+    config:
+      #读取配置文件${uri}/${label}/${name}-${profile}.yml 即:http://localhost:6001/master/config-dev.yml
+      label: master #分支
+      name: config
+      profile: dev
+      uri: http://localhost:6001
+  #rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: config6002
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
+#暴露actuator监控所有结点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

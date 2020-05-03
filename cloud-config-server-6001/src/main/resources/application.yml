@@ -1,0 +1,39 @@
+server:
+  port: 6001
+spring:
+  application:
+    name: cloud-config-server-service
+  cloud:
+    #config服务器端配置
+    config:
+      server:
+        git:
+          uri: git@github.com:wantao666/SpringCloud2020-config.git #github项目地址
+          search-paths:
+            -SpringCloud2020-config
+          default-label: master  #读取分支
+
+  #rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+#暴露rabbitmq刷新结点
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: config6001
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
